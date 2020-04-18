@@ -13,13 +13,23 @@
 ## Install
 
 ```fish
-$ omf install jdk
+$ omf install https://github.com/zqlu/omf-plugin-jdk.git
 ```
 
 
 ## Usage
 
 ```fish
+# Switch to JDK 1.8
+$ jdk 1.8
+
+# Switch to JDK 9
+$ jdk 9
+
+# Switch to JDK 11
+$ jdk 11
+
+# Switch to default JDK
 $ jdk
 ```
 
