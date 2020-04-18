@@ -2,6 +2,7 @@
 
 #### jdk
 > A plugin for [Oh My Fish][omf-link].
+> Switch between different JDK versions.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.0-007EC7.svg?style=flat-square)](https://fishshell.com)
