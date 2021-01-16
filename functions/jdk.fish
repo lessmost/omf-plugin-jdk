@@ -4,10 +4,12 @@ function jdk -d "switch between different JDK versions"
   if test -z "$jdkv"
     # default version
     echo "Switching to default JDK version..."
+    set -e JAVA_HOME
     set -gx JAVA_HOME (/usr/libexec/java_home)
   else
     # specific version
     echo "Switching to JDK version $jdkv"
+    set -e JAVA_HOME
     set -gx JAVA_HOME (/usr/libexec/java_home -v $jdkv)
   end
   echo "Call java -version ..."
